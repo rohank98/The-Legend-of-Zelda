@@ -3,19 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>The Legend of Zelda</title>
+    <title>Unity WebGL Player | LegendOfZelda</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-    <style>
-      p {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        text-align: center;
-        font-size: 12px;
-      }
-    </style>
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -32,25 +22,13 @@
         <div id="unity-build-title">LegendOfZelda</div>
       </div>
     </div>
-    <p>
-       Use arrow keys to move<br>
-       X - primary fire<br>
-       Z - secondary fire<br>
-       1 - god mode<br>
-       **Note: if you do not have the weapon you will not be able to swap to it.**<br>
-       2 - secondary weapon = bombs<br>
-       3 - secondary weapon = bow<br>
-       4 - secondary weapon = boomerang<br>
-       5 - secondary weapon = web<br>
-       6 - load custom scene
-    </p>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Build 2.loader.js";
+      var loaderUrl = buildUrl + "/Build 4.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Build 2.data.gz",
-        frameworkUrl: buildUrl + "/Build 2.framework.js.gz",
-        codeUrl: buildUrl + "/Build 2.wasm.gz",
+        dataUrl: buildUrl + "/Build 4.data.gz",
+        frameworkUrl: buildUrl + "/Build 4.framework.js.gz",
+        codeUrl: buildUrl + "/Build 4.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "ARK Studios",
         productName: "LegendOfZelda",
